@@ -18,3 +18,10 @@ CREATE TABLE `users` (
   `attempts_count` int(11) DEFAULT '0',
   PRIMARY KEY (`id`)
 )
+
+Also needed to create /conf/db_params.ini file like this:
+host = '';
+database = '';
+user = '';
+password = '';
+charset = '';
